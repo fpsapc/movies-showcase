@@ -121,12 +121,12 @@ In order to run this project you need:
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-https://github.com/Alejandroq12/group-capstone-js
+https://github.com/fpsapc/movies-showcase
 ```
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd group-capstone-js``**
+**``you@your-Pc-name:~$ cd movies-showcase``**
 
 ### Install
 
