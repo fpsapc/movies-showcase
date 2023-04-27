@@ -92,7 +92,14 @@ APIs
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+<<<<<<< Updated upstream
 - [Live Demo Link](https://alejandroq12.github.io/group-capstone-js/dist/)
+=======
+- [Live Demo Link](https://fpsapc-movies-showcase.netlify.app)
+
+- <p>Desktop Version:</p>
+<img src="./Assets/mobile.gif" alt="mobile live"/>
+>>>>>>> Stashed changes
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
