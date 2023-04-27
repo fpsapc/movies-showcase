@@ -92,7 +92,7 @@ APIs
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://fpsapc-movies-showcase.netlify.app)
+- [Movies-Showcase-link](https://fpsapc-movies-showcase.netlify.app)
 
 - <p>Desktop Version:</p>
 <img src="./Assets/mobile.gif" alt="mobile live"/>
