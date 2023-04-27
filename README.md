@@ -1,4 +1,4 @@
-# group-capstone-js
+# Movies Showcase
 
 <a name="readme-top"></a>
 
