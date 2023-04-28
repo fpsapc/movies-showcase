@@ -22,7 +22,7 @@
 body {
   font-family: 'Heebo', sans-serif;
   font-size: 16px;
-  background: transparent;
+  background-image: linear-gradient(to left, #ff9800, #2196f3, #f44336);
 }
 
 /* Navbar */
@@ -31,13 +31,11 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  border: 1px solid var(--black);
 }
 
 .logo-container {
   display: flex;
   align-items: center;
-  margin-left: 2rem;
   font-size: 1.2rem;
   font-weight: bold;
   transition: all 0.8s;
@@ -47,6 +45,37 @@ header {
   scale: 1.1;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.logo-container p {
+  width: auto;
+  color: var(--white);
+}
+
+#search {
+  font-size: 1.3rem;
+  height: 3rem;
+  margin-right: 0.5rem;
+  width: 70%;
+  padding: 0 10px;
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+}
+
+#search-btn {
+  background-color: #07c;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  height: 3rem;
+  transition: all 0.8s;
+  padding: 0 1rem;
+}
+
+#search-btn:hover {
+  background-color: rgba(4, 144, 29, 0.9);
 }
 
 nav {
@@ -63,20 +92,15 @@ nav {
 }
 
 .nav-links a {
-  color: var(--black);
+  color: var(--white);
   text-decoration: none;
-  margin-left: 2rem;
   transition: all 0.8s;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
-.nav-links a:hover {
-  text-decoration: underline;
-}
-
 .movie-count {
-  color: var(--light-blue);
+  color: var(--white-gray);
 }
 
 /* Home page */
@@ -118,10 +142,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+  padding: 0 1rem;
 }
 
 .card-text {
   flex-grow: 1;
+  font-size: 2rem;
+  color: darkblue;
+  width: 75%;
 }
 
 .likes-container {
@@ -143,9 +171,10 @@ nav {
   border: none;
   border-radius: 4px;
   padding: 0.5rem 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
   cursor: pointer;
   transition: all 0.8s;
+  height: 3rem;
 }
 
 .card-comment:hover {
@@ -248,7 +277,7 @@ nav {
   overflow: hidden;
 }
 
-form {
+#addForm {
   display: flex;
   flex-direction: column;
   width: 20rem;
@@ -310,13 +339,14 @@ form {
 
 footer {
   height: 6vh;
-  border: 1px solid var(--black);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footerP {
   margin-left: 1rem;
+  color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -335,8 +365,12 @@ footer {
     gap: 0.5rem;
   }
 
+  .logo-container {
+    display: none;
+  }
+
   #commentTitle {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     text-align: center;
   }
 
@@ -345,8 +379,24 @@ footer {
     padding: 0;
   }
 
+  #commentDetails p {
+    font-size: 1.8rem;
+  }
+
   .comment-text {
     text-align: center;
+    font-size: 1rem;
+  }
+
+  #searchBar {
+    display: flex;
+  }
+
+  #search {
+    font-size: 1rem;
+  }
+
+  #search-btn {
     font-size: 1rem;
   }
 }
